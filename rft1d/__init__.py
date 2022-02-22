@@ -1,13 +1,12 @@
+__version__ = "0.2.0"  # (2022.02.22)
 
-__version__  = '0.1.4'   #(2016.01.01)
+from . import distributions, geom, prob, random
 
-from . import data, distributions, geom, prob, random
-
-randn1d      = random.randn1d
+randn1d = random.randn1d
 multirandn1d = random.multirandn1d
 
-chi2         = distributions.chi2
-f            = distributions.f
-norm         = distributions.norm
-t            = distributions.t
-T2           = distributions.T2
+chi2 = distributions.chi2
+f = distributions.f
+norm = distributions.norm
+t = distributions.t
+T2 = distributions.T2
