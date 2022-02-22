@@ -8,6 +8,9 @@ expectations regarding upcrossings in univariate and multivariate 1D continua.
 These expectations can be used to make statistical inferences regarding signals
 observed in experimentally measured 1D continua including scalar and vector time series.
 
+This project is a restart to keep the package working on newer Python distributions. 
+
+For the original work, please cite:
 
 <b>Please cite:</b>
 

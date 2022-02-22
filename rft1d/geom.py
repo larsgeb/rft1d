@@ -11,7 +11,7 @@ of 1D fields and upcrossings.
 from math import log
 import numpy as np
 
-
+ 
 eps         = np.finfo(np.float).eps
 
 

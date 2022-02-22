@@ -13,7 +13,7 @@ from math import pi,log,sqrt,exp
 import numpy as np
 from scipy import stats,optimize
 from scipy.special import gammaln,gamma
-import geom
+from . import geom
 
 # CONSTANTS:
 FOUR_LOG2   = 4*log(2)
@@ -25,7 +25,7 @@ eps         = np.finfo(np.float).eps
 
 
 def p_bonferroni(STAT, z, df, Q, n=1):
-	'''
+	''' 
 	Bonferroni correction.
 	
 	When fields are very rough a Bonferroni correction might be less severe than

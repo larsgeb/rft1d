@@ -1,0 +1,17 @@
+docs
+.idea
+.vscode
+output*
+build
+dist
+*.egg-info
+*__pycache__
+.coverage
+.coverage.*
+*.npy
+*.npz
+*.ipynb_checkpoints
+*.NOGIT
+.pytest_cache/
+coverage.xml
+.DS_Store
